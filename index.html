@@ -145,6 +145,22 @@
           <a href="mailto:abbywork0910@gmail.com"><span class="contact-icon" aria-hidden="true">✉</span><span><small>電子信箱</small>abbywork0910@gmail.com</span></a>
           <a href="tel:0930516962"><span class="contact-icon" aria-hidden="true">☎</span><span><small>電話</small>0930516962</span></a>
         </div>
+        <section class="contact-form-section" aria-labelledby="contact-form-title">
+          <div>
+            <p class="eyebrow">留下訊息</p>
+            <h2 id="contact-form-title">想聊聊嗎？<br>歡迎留下基本資料。</h2>
+            <p>填寫後即可直接送出，資料會安全寫入聯絡訊息系統。</p>
+          </div>
+          <form id="contact-form" class="contact-form">
+            <label>姓名<input name="name" type="text" autocomplete="name" maxlength="100" required></label>
+            <label>電子信箱<input id="contact-email" name="email" type="email" inputmode="email" autocomplete="email" maxlength="254" required></label>
+            <label>電話（選填）<input name="phone" type="tel" autocomplete="tel" maxlength="50"></label>
+            <label>聯絡主旨<input name="subject" type="text" maxlength="160" required></label>
+            <label class="contact-message">想和我說的話<textarea name="message" rows="5" maxlength="5000" required></textarea></label>
+            <button class="contact-submit" type="submit">submit <span>→</span></button>
+            <p id="contact-form-status" class="contact-form-status" aria-live="polite"></p>
+          </form>
+        </section>
       </div>
     </section>
   </main>

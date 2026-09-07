@@ -16,7 +16,7 @@ let 目前圖片索引 = 0;
 const 作品資料 = {
   food: { 類型:'UI／UX｜行動應用程式', 名稱:'食健', 介紹:'以飲食紀錄為核心的健康管理 APP。專案將餐點新增、營養資訊、生活建議與專家諮詢整合為一段容易追蹤的使用流程。', 重點:['從日常飲食情境出發，整理紀錄、查詢與諮詢需求','規劃首頁、日記與專家諮詢等主要功能入口','透過清楚的視覺層級，降低每日紀錄的操作負擔'], 圖片:['圖片/UI&UX/飲食紀錄app-食健/首頁.png','圖片/UI&UX/飲食紀錄app-食健/mockup_日記.png','圖片/UI&UX/飲食紀錄app-食健/mockup_生活.png','圖片/UI&UX/飲食紀錄app-食健/mockup_專家諮詢.png'], 連結:'https://canva.link/iowjqv8r61stmm2', 手機圖:true },
   coding: { 類型:'UI／UX｜教育應用程式', 名稱:'Coding Learning 可丁程式酷', 介紹:'為兒童設計的程式學習 APP，利用課程、問答與遊戲任務，將抽象的程式概念拆成具體、循序的學習步驟。', 重點:['建立兒童學習者的使用情境與目標','安排課程單元、互動問答與遊戲回饋的學習流程','以遊戲化視覺提升探索與完成任務的動機'], 圖片:['圖片/UI&UX/兒童程式教育app-Coding Learning/首頁.png','圖片/UI&UX/兒童程式教育app-Coding Learning/Home.png','圖片/UI&UX/兒童程式教育app-Coding Learning/class.png','圖片/UI&UX/兒童程式教育app-Coding Learning/class_QA1.png','圖片/UI&UX/兒童程式教育app-Coding Learning/class_test.png','圖片/UI&UX/兒童程式教育app-Coding Learning/class_unit.png','圖片/UI&UX/兒童程式教育app-Coding Learning/Game.png','圖片/UI&UX/兒童程式教育app-Coding Learning/game_adventrue.png','圖片/UI&UX/兒童程式教育app-Coding Learning/game_UI1.png','圖片/UI&UX/兒童程式教育app-Coding Learning/shop.png','圖片/UI&UX/兒童程式教育app-Coding Learning/shop_buy.png'], 連結:'https://canva.link/i443v4mrol8wxb1', 手機圖:true },
-  planfit: { 類型:'UI／UX｜網站設計', 名稱:'PlanFIT', 介紹:'個人健身計劃網站，將運動安排、個人資訊與課表管理收斂在一致的網站流程中，讓使用者更容易規劃與追蹤自己的健身目標。', 重點:['整理健身使用者從瀏覽、規劃到追蹤的操作路徑','設計網站首頁、訓練資訊與行事曆等主要頁面','維持資訊層級與操作介面的一致性'], 圖片:['圖片/UI&UX/個人健身計劃網站-PlanFIT/首頁.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/Planfit.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/127.0.0.1_3000_about (1).png','圖片/UI&UX/個人健身計劃網站-PlanFIT/contactus.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/127.0.0.1_3000_contact.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/calender1.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/calender2.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/calender4.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/workout1.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/workout3.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/editpage.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/editpage1.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/changepass.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/folder1.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/Screen Shot 2022-01-12 at 11.06.19 PM.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/logo.png'] },
+  planfit: { 類型:'UI／UX｜網站設計', 名稱:'PlanFIT', 介紹:'個人健身計劃網站，將運動安排、個人資訊與課表管理收斂在一致的網站流程中，讓使用者更容易規劃與追蹤自己的健身目標。', 重點:['整理健身使用者從瀏覽、規劃到追蹤的操作路徑','設計網站首頁、訓練資訊與行事曆等主要頁面','維持資訊層級與操作介面的一致性'], 圖片:['圖片/UI&UX/個人健身計劃網站-PlanFIT/首頁.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/Planfit.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/127.0.0.1_3000_about (1).png','圖片/UI&UX/個人健身計劃網站-PlanFIT/127.0.0.1_3000_contact.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/calender1.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/calender2.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/calender4.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/workout1.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/workout3.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/editpage.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/editpage1.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/changepass.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/folder1.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/Screen Shot 2022-01-12 at 11.06.19 PM.png','圖片/UI&UX/個人健身計劃網站-PlanFIT/logo.png'] },
   gym: { 類型:'海報設計｜活動宣傳', 名稱:'活動宣傳海報', 介紹:'整合球館教練介紹、節慶活動與校隊徵選等宣傳需求，透過清楚的資訊層級與富有運動感的視覺語言，讓受眾快速掌握活動重點。', 重點:['依不同宣傳目的安排人物、標題與活動資訊的閱讀順序','運用色彩、字級與版面建立活力鮮明的視覺風格','兼顧社群曝光與校園、現場張貼情境的辨識性'], 圖片:['圖片/海報設計/高飛教練海報2.png','圖片/海報設計/高飛教練介紹海報-100.jpg','圖片/海報設計/輕鬆萬聖節海報-8.png','圖片/海報設計/徵人傳單A4.png','圖片/海報設計/112元智校羽徵選海報-100.jpg','圖片/海報設計/110徵選海報.png'] },
   puppet: { 類型:'美術｜實體創作', 名稱:'棒偶劇場', 介紹:'以棒偶劇場為主題，從角色、服裝到場景素材逐步完成製作，並以實體演出成果呈現故事與視覺氛圍。', 重點:['依劇場角色需求發展人物造型','設計服裝與場景素材，讓視覺語言保持一致','將設計轉化為實體作品並完成成果展示'], 圖片:[] },
   game: { 類型:'美術｜遊戲創作', 名稱:'遊戲', 介紹:'《減肥吧！豬豬》是一款結合迷宮探索與劇情任務的遊戲。玩家操作小明躲避野狼、機關與小泥獸，完成村莊任務並前往白鸛村取得神奇蘋果，向阿美告白。', 重點:['規劃以迷宮探索、任務與劇情推進交織的遊戲體驗','設計小明、阿美、狼大大等角色，以及關卡、場景與互動元素','依照企畫書的四個關卡需求，整合地圖、道具、機關與故事畫面'], 圖片:[] }
@@ -121,6 +121,62 @@ document.addEventListener('keydown', (事件) => { if (!圖片燈箱.classList.c
   卡片.addEventListener('click', () => 顯示作品詳細(卡片.dataset.workCard));
   卡片.addEventListener('keydown', (事件) => { if (事件.key === 'Enter' || 事件.key === ' ') 顯示作品詳細(卡片.dataset.workCard); });
 });
+
+const 聯絡表單 = document.querySelector('#contact-form');
+if (聯絡表單) {
+  const 電子信箱欄位 = 聯絡表單.querySelector('#contact-email');
+  const 檢查電子信箱 = () => {
+    const 信箱格式正確 = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(電子信箱欄位.value.trim());
+    const 有填寫 = 電子信箱欄位.value.trim().length > 0;
+    const 錯誤文字 = 有填寫 && !信箱格式正確 ? '請輸入有效的電子信箱格式，例如：name@example.com。' : '';
+    電子信箱欄位.setCustomValidity(錯誤文字);
+    電子信箱欄位.classList.toggle('input-error', Boolean(錯誤文字));
+    return 信箱格式正確;
+  };
+
+  電子信箱欄位.addEventListener('input', 檢查電子信箱);
+  電子信箱欄位.addEventListener('blur', 檢查電子信箱);
+  聯絡表單.addEventListener('submit', (事件) => {
+    事件.preventDefault();
+    if (!檢查電子信箱()) {
+      電子信箱欄位.reportValidity();
+      return;
+    }
+    const 資料 = new FormData(聯絡表單);
+    const 送出按鈕 = 聯絡表單.querySelector('[type="submit"]');
+    const 狀態訊息 = document.querySelector('#contact-form-status');
+    const 聯絡資料 = {
+      name: 資料.get('name').trim(),
+      email: 資料.get('email').trim(),
+      phone: 資料.get('phone').trim() || null,
+      subject: 資料.get('subject').trim(),
+      message: 資料.get('message').trim()
+    };
+
+    送出按鈕.disabled = true;
+    狀態訊息.textContent = '正在送出資料…';
+    fetch('https://oibbdkqpvbezzhjddjdj.supabase.co/rest/v1/contact_messages', {
+      method: 'POST',
+      headers: {
+        'apikey': 'sb_publishable_KL7Qz1IW_2tgh5ewbZBDbA_461hji1n',
+        'Content-Type': 'application/json',
+        'Prefer': 'return=minimal'
+      },
+      body: JSON.stringify(聯絡資料)
+    })
+      .then((回應) => {
+        if (!回應.ok) throw new Error(`Supabase request failed: ${回應.status}`);
+        聯絡表單.reset();
+        狀態訊息.textContent = '已收到你的訊息，謝謝！我會盡快回覆。';
+      })
+      .catch(() => {
+        狀態訊息.textContent = '送出失敗，請稍後再試或直接以電子信箱聯絡我。';
+      })
+      .finally(() => {
+        送出按鈕.disabled = false;
+      });
+  });
+}
 
 function 顯示頁面() {
   const 目標 = location.hash || '#home';
